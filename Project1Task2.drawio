@@ -1,1 +1,52 @@
-<mxfile host="www.draw.io" modified="2020-03-01T14:07:32.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" version="12.7.9" etag="tPXlRQ8hdf_Kxvd_Tf4C" type="github"><diagram id="pQteEHY9sHOQ8PFJoPZ1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-01T14:18:07.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="l-8mF1XagYXBjyOsYxFu" version="12.7.9" type="github">
+  <diagram id="pQteEHY9sHOQ8PFJoPZ1" name="Page-1">
+    <mxGraphModel dx="533" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1S23DLI9JxfCuROqcjVe-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S23DLI9JxfCuROqcjVe-1" target="1S23DLI9JxfCuROqcjVe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-1" value="Process 0 reads in matrix and vector input files" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S23DLI9JxfCuROqcjVe-2" target="1S23DLI9JxfCuROqcjVe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-2" value="MPI Environment instantiated" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-6" value="Process 0 determines how to distribute data based upon n/p, then distributes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="660" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-5" value="All processes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S23DLI9JxfCuROqcjVe-9" target="1S23DLI9JxfCuROqcjVe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-9" value="All processes receive data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1S23DLI9JxfCuROqcjVe-12" target="1S23DLI9JxfCuROqcjVe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-12" value="All processes output received data and their rank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-14" value="MPI Environment finished, process 0 returns" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1S23DLI9JxfCuROqcjVe-11" value="" style="endArrow=classic;html=1;entryX=0.425;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1S23DLI9JxfCuROqcjVe-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="270" as="sourcePoint" />
+            <mxPoint x="320" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
