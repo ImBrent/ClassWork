@@ -1,1 +1,61 @@
-<mxfile host="www.draw.io" modified="2020-03-03T21:12:49.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0" version="12.7.9" etag="9bI8i10NSh1aiYbbmIBZ" type="github"><diagram id="NnmAsENVl6uxCmPJn87L">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-03T21:32:40.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0" etag="cT8OIUTO-4QOKYvOgZcE" version="12.7.9" type="github">
+  <diagram id="NnmAsENVl6uxCmPJn87L" name="Page-1">
+    <mxGraphModel dx="814" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SckPc-ydpgjOnL1drMYz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SckPc-ydpgjOnL1drMYz-1" target="SckPc-ydpgjOnL1drMYz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-1" value="&lt;div&gt;Initialize MPI Environment&lt;/div&gt;&lt;div&gt;- All processes get rank and group size&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SckPc-ydpgjOnL1drMYz-2" target="SckPc-ydpgjOnL1drMYz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-2" value="&lt;div&gt;Rank 0 only:&lt;/div&gt;&lt;div&gt;Open file, read in matrix, display the matrix.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SckPc-ydpgjOnL1drMYz-4" target="SckPc-ydpgjOnL1drMYz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-4" value="&lt;div&gt;All processes:&lt;/div&gt;&lt;div&gt;Calculate values needed for message passing:&lt;/div&gt;&lt;div&gt;- Number of rows each process is allocated&lt;/div&gt;&lt;div&gt;- Number of elements that each process will handle&lt;/div&gt;&lt;div&gt;- Size of buffer that each process will receive in AllToAll&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Also, all processes will allocate sending and receiving buffers based upon the calculated number of elements to handle&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="230" width="310" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SckPc-ydpgjOnL1drMYz-6" target="SckPc-ydpgjOnL1drMYz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-6" value="&lt;div&gt;MPI Scatter&lt;/div&gt;&lt;div&gt;All processes will receive an equal number of rows to work with from the Matrix that process 0 read in previously.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="410" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SckPc-ydpgjOnL1drMYz-8" target="SckPc-ydpgjOnL1drMYz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-8" value="&lt;div&gt;Each process prepares a buffer of data to prepare for MPI_AllToAll&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A process responsible for computing rows i through j will need all elements from columns i through j. Each process prepares their buffer such that each process receives that necessary data&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="530" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SckPc-ydpgjOnL1drMYz-10" target="SckPc-ydpgjOnL1drMYz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-10" value="&lt;div&gt;MPI_AllToAll&lt;/div&gt;&lt;div&gt;All processes send some of their previously prepared buffer to the necessary process.&lt;/div&gt;&lt;div&gt;All processes now have the needed data to perform the transpose&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="690" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SckPc-ydpgjOnL1drMYz-12" target="SckPc-ydpgjOnL1drMYz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-12" value="All processes use their data to create the rows that will build the transposed matrix. For each row i, i+1... i+n that they are responsible for, they will take the received data from column i, i+1, ... i+n and place it into the row of the same index" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="810" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SckPc-ydpgjOnL1drMYz-14" target="SckPc-ydpgjOnL1drMYz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-14" value="&lt;div&gt;MPI_Gather&lt;/div&gt;&lt;div&gt;All processes send their rows to process 0, and the new matrix has been built&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="920" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SckPc-ydpgjOnL1drMYz-16" value="Process 0 displays the transposed matrix" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1030" width="310" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
