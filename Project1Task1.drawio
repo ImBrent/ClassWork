@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-03T21:09:01.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0" etag="1IH1STqscECBSZ-O1FXB" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-03T21:10:19.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0" etag="wS34y7aOGUyrrv6eXzN0" version="12.7.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1182" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-yZFPAFeUE5YvdTN-0MW-28" value="&lt;div&gt;Process rank 0 only:&lt;/div&gt;&lt;div&gt;Print global minimum value&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="255" y="1060" width="120" height="60" as="geometry" />
+          <mxGeometry x="255" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
