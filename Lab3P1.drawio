@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T02:16:04.328Z" agent="5.0 (Windows)" etag="p9gFVpodUHJZeXwFRYU7" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-28T02:18:12.701Z" agent="5.0 (Windows)" etag="JTVipb2FwHw4R1bSwKNZ" version="13.7.3" type="github">
   <diagram id="ibJbVLS4hWbRgZfAMbUb" name="Page-1">
     <mxGraphModel dx="868" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TFYRqIjvRKhbQdXWvnds-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="50" width="390" height="530" as="geometry" />
+          <mxGeometry x="320" y="50" width="390" height="400" as="geometry" />
         </mxCell>
         <mxCell id="TFYRqIjvRKhbQdXWvnds-2" value="&lt;i&gt;ATM&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="60" width="40" height="20" as="geometry" />
@@ -85,21 +85,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TFYRqIjvRKhbQdXWvnds-25" value="&lt;div&gt;Generate&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;&lt;div&gt;Report&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="270" width="95" height="50" as="geometry" />
+          <mxGeometry x="495" y="330" width="95" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TFYRqIjvRKhbQdXWvnds-26" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-25">
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-26" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TFYRqIjvRKhbQdXWvnds-40" target="TFYRqIjvRKhbQdXWvnds-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="325" as="sourcePoint" />
-            <mxPoint x="290" y="275" as="targetPoint" />
+            <mxPoint x="390" y="385" as="sourcePoint" />
+            <mxPoint x="440" y="335" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFYRqIjvRKhbQdXWvnds-27" value="&lt;div&gt;Perform &lt;br&gt;&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;&lt;div&gt;Shutdown&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="340" width="80" height="50" as="geometry" />
+          <mxGeometry x="420" y="380" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TFYRqIjvRKhbQdXWvnds-28" value="" style="endArrow=none;html=1;entryX=0;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-27">
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-28" value="" style="endArrow=none;html=1;entryX=0;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TFYRqIjvRKhbQdXWvnds-40" target="TFYRqIjvRKhbQdXWvnds-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="330" as="sourcePoint" />
-            <mxPoint x="290" y="280" as="targetPoint" />
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFYRqIjvRKhbQdXWvnds-29" value="Login using PIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -149,6 +149,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="240" as="sourcePoint" />
             <mxPoint x="504.64466094067257" y="287.3223304703363" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-40" value="&lt;div&gt;System&lt;/div&gt;&lt;div&gt;Functionalities&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="285" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-41" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="330" as="sourcePoint" />
+            <mxPoint x="290" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
