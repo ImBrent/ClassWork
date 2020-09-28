@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-27T15:07:36.835Z" agent="5.0 (Windows)" etag="7ZH6Y0hL_pzeQS61HP2R" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-28T02:07:17.303Z" agent="5.0 (Windows)" etag="dXO2TPqrhv79d53d564s" version="13.7.3" type="github">
   <diagram id="ibJbVLS4hWbRgZfAMbUb" name="Page-1">
     <mxGraphModel dx="868" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="180" y="840" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TFYRqIjvRKhbQdXWvnds-7" value="Login using PIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="200" width="105" height="40" as="geometry" />
+          <mxGeometry x="335" y="220" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TFYRqIjvRKhbQdXWvnds-8" value="&lt;div&gt;Transactional&lt;/div&gt;&lt;div&gt;Functionalities&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="100" width="110" height="50" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="TFYRqIjvRKhbQdXWvnds-10" value="&lt;div&gt;System&lt;/div&gt;&lt;div&gt;Administrator&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="270" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TFYRqIjvRKhbQdXWvnds-12" value="" style="endArrow=none;html=1;entryX=0.257;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-7">
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-12" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="120" as="sourcePoint" />
             <mxPoint x="377" y="212" as="targetPoint" />
@@ -41,13 +41,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TFYRqIjvRKhbQdXWvnds-14" value="Bank" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="170" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TFYRqIjvRKhbQdXWvnds-15" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="100" as="sourcePoint" />
-            <mxPoint x="280" y="50" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="740" y="120" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TFYRqIjvRKhbQdXWvnds-16" value="Deposit" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="105" width="90" height="40" as="geometry" />
@@ -106,6 +100,40 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="330" as="sourcePoint" />
             <mxPoint x="290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-29" value="Login using PIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="170" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-30" value="" style="endArrow=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="80" as="sourcePoint" />
+            <mxPoint x="750" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-31" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="170" as="sourcePoint" />
+            <mxPoint x="740" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-32" value="" style="endArrow=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="120" as="sourcePoint" />
+            <mxPoint x="740" y="160" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-33" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="220" as="sourcePoint" />
+            <mxPoint x="740" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFYRqIjvRKhbQdXWvnds-35" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFYRqIjvRKhbQdXWvnds-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="170" as="sourcePoint" />
+            <mxPoint x="450" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
