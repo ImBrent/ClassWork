@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-13T04:35:58.181Z" agent="5.0 (Windows)" etag="3hfLR84zBAl4-G8g8G86" version="13.7.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-13T04:43:25.714Z" agent="5.0 (Windows)" etag="aglLbAB1Dad0sPwmzOzX" version="13.7.7" type="github" pages="2">
   <diagram id="R8UxZYci79seCBjDYDYn" name="Page-1">
-    <mxGraphModel dx="411" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,6 +113,9 @@
       <root>
         <mxCell id="xLPC6Bsk3iPw8sXzz3u5-0" />
         <mxCell id="xLPC6Bsk3iPw8sXzz3u5-1" parent="xLPC6Bsk3iPw8sXzz3u5-0" />
+        <mxCell id="_lFVbMRPWaTjhuGd5gvU-0" value="Online Bookshop" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=112;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;fillColor=#ffffff;" vertex="1" parent="xLPC6Bsk3iPw8sXzz3u5-1">
+          <mxGeometry x="-100" y="130" width="940" height="1460" as="geometry" />
+        </mxCell>
         <mxCell id="xLPC6Bsk3iPw8sXzz3u5-16" value="Opt" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="xLPC6Bsk3iPw8sXzz3u5-1">
           <mxGeometry x="-40" y="350" width="860" height="440" as="geometry" />
         </mxCell>
@@ -121,9 +124,6 @@
             <mxPoint x="425" y="1552" as="sourcePoint" />
             <mxPoint x="425" y="210" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="xLPC6Bsk3iPw8sXzz3u5-3" value="Online Bookshop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xLPC6Bsk3iPw8sXzz3u5-1">
-          <mxGeometry x="20" y="80" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xLPC6Bsk3iPw8sXzz3u5-4" value="Bookshop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xLPC6Bsk3iPw8sXzz3u5-1">
           <mxGeometry x="210" y="160" width="110" height="50" as="geometry" />
